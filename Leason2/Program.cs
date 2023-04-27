@@ -7,7 +7,7 @@ int Prompt(string message)
 {
     Console.Write(message);
     string value = Console.ReadLine();
-    int reult = Convert.ToInt32(value);
+    int result = Convert.ToInt32(value);
     return result;
 }
 
