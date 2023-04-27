@@ -4,8 +4,8 @@
 //918 -> 1
 
 Console.WriteLine("Введите трёхзначное число: ");
-it number = int.Parse(Console.ReadLine());
-if(number < 100 && number >= 1000 )
+int number = int.Parse(Console.ReadLine());
+if(number < 100 || number >= 1000 )
 {
     Console.WriteLine("Выедено не трёхзначное число");
 }
